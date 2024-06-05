@@ -14,7 +14,7 @@ O projeto deve obrigatoriamente conter os seguintes itens:
 <li>Organizar o projeto de acordo com as práticas mostradas em aula (pasta widgets, pages, models...conforme necessário) 
 <li>Utilizar algum pacote externo (aqueles lá do PubDev) 
 
-<P>Este projeto é uma calculadora desenvolvida em Dart/Flutter. A calculadora permite realizar operações aritméticas básicas como adição, subtração, multiplicação, divisão, porcentagem e com a função de <b>SharedPreferences</b>, uma maneira simples de armazenar dados persistentes localmente no dispositivo, ideal para guardar pares de chave-valor. (Usado para armazenar o histórico das opeções)
+<P>Este projeto é uma calculadora desenvolvida em Dart/Flutter. A calculadora permite realizar operações aritméticas básicas como adição, subtração, multiplicação, divisão e porcentagem. A função de <b>SharedPreferences</b>, uma maneira simples de armazenar dados persistentes localmente no dispositivo, ideal para guardar pares de chave-valor. (Usado para armazenar o histórico das opeções)
 <p>Foi desenvolvida como parte de um projeto em grupo na <b>FATEC Itapira</b> curso Desenvolvimento de Software Multiplataforma, para aprender e praticar a linguagem Dart e desenvolvimento de aplicações.
 
 # Instalação
