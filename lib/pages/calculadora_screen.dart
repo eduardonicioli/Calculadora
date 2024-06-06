@@ -51,8 +51,8 @@ class _CalculadoraScreenState extends State<CalculadoraScreen> {
           Row(
             children: [
               CustomButton(value: '4', onPressed: () => setState(() => provider.input('4'))),
-              CustomButton(value: '5', onPressed: () => setState(() => provider.input('5'))),
-              CustomButton(value: '6', onPressed: () => setState(() => provider.input('6'))),
+              CustomButton(value: '5', onPressed: () => setState(() => setState(() => provider.input('5')))),
+              CustomButton(value: '6', onPressed: () => setState(() => setState(() => provider.input('6')))),
               CustomButton(value: '*', backgroundColor: Colors.orangeAccent, onPressed: () => setState(() => provider.input('*'))),
             ],
           ),
@@ -86,9 +86,9 @@ class _CalculadoraScreenState extends State<CalculadoraScreen> {
               child: ListView.builder(
                 itemCount: provider.historico.length,
                 itemBuilder: (context, index) {
-                  int reserveIndex = provider.historico.length - 1 - index;
+                  int reverseIndex = provider.historico.length - 1 - index;
                   return ListTile(
-                    title: Text(provider.historico[reserveIndex]),
+                    title: Text(provider.historico[reverseIndex]),
                   );
                 },
               ),
