@@ -23,7 +23,7 @@ Clone o repositório
 git clone https://github.com/eduardonicioli/calculadora.git
 
 Instale as dependências (utilizando pub)<br>
-<i>dart pub get</i>
+<i>flutter pub get</i>
 
 # Dependências
 O projeto está organizado com as seguintes dependências e diretórios dentro da pasta lib:
